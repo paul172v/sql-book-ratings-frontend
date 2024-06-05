@@ -1,0 +1,34 @@
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  background-color: white;
+  font-size: 2.4rem;
+  margin-top: 8rem;
+  color: orangered;
+  padding: 2rem 4rem;
+  border-radius: 1rem;
+  border: 2px orangered solid;
+
+  .heading {
+    margin-bottom: 2rem;
+  }
+
+  input {
+    color: orangered;
+    font-size: 2rem;
+    padding-left: 0.5rem;
+    margin-left: 1rem;
+  }
+
+  .submit-button {
+    background-color: orangered;
+    color: white;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+  }
+}

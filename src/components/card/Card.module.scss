@@ -1,0 +1,82 @@
+.card {
+  height: 50rem;
+  width: 30rem;
+  background-color: orangered;
+  color: white;
+  border-radius: 8px;
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr minmax(auto, 4fr) 1fr 1fr 1fr auto;
+  box-shadow: 8px 10px 0 0 rgb(21, 21, 21, 0.7);
+}
+
+.image-box {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  object-fit: contain;
+  overflow: hidden;
+  border-bottom: 1px solid orangered;
+
+  .img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.text-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: orangered;
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.8rem;
+  }
+}
+
+#title {
+  grid-row: 3/4;
+}
+
+#author {
+  grid-row: 4/5;
+}
+
+#rating {
+  grid-row: 5/6;
+}
+
+.button-box {
+  grid-row: 6/7;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+  background-color: orangered;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.u-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  background-color: #303030;
+  color: white;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 15px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

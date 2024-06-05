@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Slabo 27px", serif;
+}
+
+h1 {
+  font-size: 3.6rem;
+}
+
+.u-row {
+  display: flex;
+  margin-top: 1rem;
+}
